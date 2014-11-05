@@ -1,0 +1,92 @@
+/*
+Nicolas Stanzione
+ngstanzione@gmail.com
+I am a Senior majoring in Computer Science at UMass Lowell enrolled in 91.461
+File:C:\Users\Stanzy\Documents\NetBeansProjects\GUIAssignment2\public_html\home_style.css
+File created: 9/10/2014
+This file is the style sheet for index.html which is the home page of my site.
+*/
+
+/* Styling for the body block. Background is hexcode for thistle1 */
+body {
+    font-family: Calibri, Courier New, serif;
+    background-color: #FFE1FF; /*thistle1*/
+    line-height: 1;
+    padding: 10px;
+}
+/* h1 and h2 are the styles for the headers */
+h1 {
+    font-size: 275%;
+    font-weight: bolder;
+    color: #4E0C7A;
+    text-align: center;
+}
+h2 {
+    font-size: 195%;
+    font-weight: bold;
+    color: #4E0C7A;
+    text-align: center;
+}
+/* styling for the unordered list in my nav bar */
+#navigation ul {
+    background-color: #B28CB2;
+    height: 50px;
+}
+/* styling for the list which holds the navigation items */
+#navigation li {
+    display: inline;
+    font-size: 160%;
+    font-style: italic;
+    color: #FFE1FF;    
+}
+/* styling in the nav bar for links that have been visited */
+#navigation a:visited a:link{
+    color: #BBE0D9;
+}
+/* hover style for links in navigation bar */
+#navigation a:hover {
+    color: white;
+    
+}
+/* decoration for the links in the nav bar */
+#navigation a{
+    text-decoration: none;
+    padding: 15px;
+}
+/* styling for everything else inside the nav bar */
+#navigation{
+    text-align: center;
+    height: 30px;
+}   
+/* paragraph styling for main paragraph about me */ 
+#About_Me p {
+    font-size: 120%;
+    color: #663136;
+    line-height: 1.4;
+}
+/* paragraph about Spencer styling */
+#Cat p {
+    font-size: 110%;
+    color: #663136;
+    line-height: 1.4;
+    text-align: center;
+}
+/* styling for ordered lists such as assignment list */
+#Assignment_List li {
+    list-style-type: square;
+    color: #CCA0A3;
+    padding: 3px;
+    font-size: 150%;
+    font-weight: bold;
+}
+/* styling for a tags in assignment list of assignment page */
+#Assignment_List a {
+    color: #91B27A;
+    text-decoration: none;
+}
+/* styling for image of spencer */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
