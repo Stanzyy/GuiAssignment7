@@ -35,7 +35,7 @@ This site will serve as the javascript for the single page navigation bar.
 
   // Sets the "active" class on the active navigation link.
   function setActiveLink(page_id){
-    $("#navbar a").each(function (i, linkElement) {
+    $("#navigation a").each(function (i, linkElement) {
       var link = $(linkElement),
           pageName = link.attr("href").substr(1);
       if(pageName === page_id) {
