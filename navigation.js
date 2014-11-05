@@ -2,7 +2,7 @@
 Nicolas Stanzione
 ngstanzione@gmail.com
 I am a Senior majoring in Computer Science at UMass Lowell enrolled in 91.461
-File:\public_html\navigation.js
+File:\GuiAssignmnet7\navigation.js
 File created: 11/5/2014
 This site will serve as the javascript for the single page navigation bar.
  */
